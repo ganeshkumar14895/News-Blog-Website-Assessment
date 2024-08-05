@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.container div{
+    width: 460px;
+    height: 200px;
+}
+.sub-1
+{
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1oclbk.img?w=768&h=512&m=6&x=532&y=149&s=54&d=54);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-2{
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1pkagJ.img?w=768&h=512&m=6&x=877&y=92&s=234&d=234);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-3{
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1oe57d.img?w=768&h=432&m=6&x=476&y=121&s=144&d=144);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-4{
+    background-image: url(https://www.bing.com/th?id=OADD2.7559574197120_1VNC7TTHVC3Q9RW3QV&pid=21.2&c=17&roil=0&roit=0.1274&roir=1&roib=0.8711&w=612&h=304&dynsize=1&qlt=90);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub-5{
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1hwWZG.img?w=768&h=432&m=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+h1 span{
+    color: rgb(73, 21, 170);
+}
+div p{
+    font-weight: bold;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+}
+.container > div {
+    height: 200px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container > div :hover {
+    opacity: 0.9;
+    transform:scale(0.95);
+}
+.container > div :nth-of-type(1)
+{
+    grid-column: 2/2;
+}
+
